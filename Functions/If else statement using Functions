@@ -1,0 +1,15 @@
+function calc(agg){
+      
+        console.log("Aggregate is "+agg);
+            if (agg>=50){
+            console.log("Grade is Pass");
+            }else{
+                console.log("Fail");
+                }
+            }
+            calc(78)
+
+ /*
+                Output will be : Aggregate is 78
+                Grade is Pass
+                */
