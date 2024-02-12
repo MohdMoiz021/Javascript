@@ -1,0 +1,49 @@
+// Function Declaration
+// The function declaration is the first part of a function definition. It specifies the name of the
+// function, the types of its parameters (if any), and the type of the value it returns
+// (if applicable). A function can have multiple declarations if they differ in terms of
+// either the number or order of their parameters. For example:
+
+add(); 
+function add(){
+    console.log("Hello World")
+}
+function add1(x,y){
+    var c=x+y;
+    return c;
+}
+ // Calling the function using the function's name followed by parentheses
+// If no arguments are passed to a function that expects them, JavaScript will pass 'undefined'.
+let x = 1;
+let y = 2;
+console.log(add1(x,y));   // Output: 3
+// Default Parameters
+// In some cases you may want to provide a default value for an optional parameter so that
+// the function works even when no argument is provided. You can achieve this with default
+// parameters. Here’s how it looks:
+function multiply(a, b) {
+    let result = a * b;
+    return result;
+    }
+    console.log(multiply(4,5));       // Output: 20
+    console.log(multiply(4,3,5,3));         // Output: 0 It will take only 2 values and discard remaning values
+
+// Function Expression
+// Function expressions assign functions to variables, array elements, object properties,
+// and even CSS style rules. They can also be nested, making them more powerful than
+// regular function declarations. Another advantage of function expressions is that they can
+// be anonymous—functions without names. These functions are useful when you need to
+// create small, unique functions inside another function, as they don’t pollute the global
+// namespace.
+
+
+var myFunction = function() {
+    console.log("Hi")
+    };
+    myFunction ();                        // Output: Hello! I am a function expression!
+    
+    var add=function(){
+        console.log("Hello")
+    }
+    add()  // Output: Hello
+
