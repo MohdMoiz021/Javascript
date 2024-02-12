@@ -1,0 +1,13 @@
+// Even Number 
+// Declaring n 
+var n=2;
+// Using conditional statement if 
+if(n%2===0)
+console.log(true)
+else console.log(false)
+
+
+// Level 2
+// Making program complex 
+function isEven(n){
+return n%2===0} 

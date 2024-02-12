@@ -1,0 +1,21 @@
+ // Bitwise operators
+            // These operators perform bit by bit operation on their operands. They don’t work on
+            // regular values but rather on integers represented as strings. For example, we can use
+            // & to find common set bits between two numbers. Here is how you do that:
+            let c = 10;
+            let d = 7;
+            console.log((c & d)); // Outputs: 2 
+            // | finds union of sets i.e., gives us the unique elements present in either of
+            // the sets.
+            console.log((c | d)); // Outputs: 10
+            // ^ calculates the symmetric difference of two sets i.e., gives us the unique
+            // elements present in either of the sets not present in both.
+            console.log((c ^ d)); // Outputs: 3
+            // ~ is unary operator which returns the complement of the binary representation of
+            // its operand. It flips each bit of the input.
+            console.log(~d); // Outputs -8
+            // << and >> shift the bits of the number to the left or right respectively. The
+            // number of positions to shift is specified in the second operand. Positive value
+            // shifts to the right and negative value shifts to the left.
+            console.log(c<<1); // Outputs 18
+            console.log(c>>1); // Outputs 5

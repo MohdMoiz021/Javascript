@@ -1,0 +1,10 @@
+// Finding type of datatype
+// Declaring a Integer varable
+var x=10;
+console.log("The data type of variable 'x' is : "+typeof(x));
+// Output: Number
+// Checking if the given value is an integer or not
+// For string datatype
+var y="Hello World";
+console.log("\n The data type of variable 'y' is: "+ typeof(y))
+// Output: String
