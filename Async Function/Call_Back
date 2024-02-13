@@ -1,0 +1,26 @@
+// Callback is a function passed as an argument to another function 
+
+
+function sum(a,b){
+    console.log(a+b);
+}
+function calculator(a,b,cb)
+{
+ cb(a,b)
+}
+
+calculator(1,2,sum)
+
+//  or
+
+calculator(1,2,(a,b)=>{
+    console.log(a+b);
+})
+
+
+
+const hello=()=>{
+    console.log("Hello")
+}
+
+setTimeout(hello,2000)
